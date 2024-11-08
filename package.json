@@ -4,29 +4,14 @@
   "type": "module",
   "scripts": {
     "build": "nuxt build",
-    "dev": "nuxt dev --https --ssl-cert localhost.pem --ssl-key localhost-key.pem",
+    "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "postinstall": "nuxt prepare",
-    "lint": "eslint ."
-  },
-  "devDependencies": {
-    "@nuxt/devtools": "latest",
-    "@nuxt/eslint-config": "^0.6.1",
-    "@nuxtjs/color-mode": "^3.5.2",
-    "@nuxtjs/eslint-module": "^4.1.0",
-    "@nuxtjs/tailwindcss": "^6.12.2",
-    "@tailwindcss/typography": "^0.5.15",
-    "@vueuse/core": "^11.2.0",
-    "@vueuse/nuxt": "^11.2.0",
-    "eslint": "^9.14.0",
-    "nuxt": "^3.14.159",
-    "shadcn-nuxt": "^0.11.2",
-    "typescript": "^5.6.3",
-    "vue": "^3.5.12",
-    "vue-router": "^4.4.5"
+    "postinstall": "nuxt prepare"
   },
   "dependencies": {
-    "@nuxt/content": "^2.13.4"
+    "nuxt": "^3.14.159",
+    "vue": "latest",
+    "vue-router": "latest"
   }
 }
